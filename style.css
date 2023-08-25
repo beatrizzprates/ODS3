@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+}
+header {
+    background-color: #4ca146;
+    color: white;
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 96PX;
+    float: left;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover {
+    background-color: #92d38d;
+}
+#imagem_fundo {
+    background: url("fundo1.webp");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  black;
+    
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  black;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: #f7f7f7;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    
+}
+.dois {
+    width: 40%;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+footer {
+    background-color: #4ca146;
+    float: left;
+    color: white;
+    width: 100%;
+}
