@@ -88,7 +88,7 @@ footer {
     #menu {
         visibility: hidden;
     }
-    .coluna, . dois {
+    .coluna, .dois {
         display: block;
         width: 80%;
         padding: 0;
