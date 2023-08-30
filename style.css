@@ -105,3 +105,10 @@ footer {
         margin-left: 0px;
         transform: translateX(-50%);
     }
+    #subtitulo {
+        margin-right: 0;
+    }
+    footer {
+        float: none;
+    }
+    }
